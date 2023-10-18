@@ -1,0 +1,135 @@
+*{
+    font-family: 'Cairo';
+}
+body{
+    background: #0093E9 linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    place-items: start center;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+}
+input{
+    border: 0px solid white;
+    width:82%;
+    height:33px;
+}
+.all{
+    background-color: white;
+    width:35%;
+    padding:20px;
+}
+.input-area{
+    margin-bottom:8px;
+    height:32px;
+    padding:8px;
+    border: 2px solid #0093E9;
+    width: 97%;
+}
+#create{
+    background-color:#0093E9;
+    color:white;
+    border: 0px solid #0093E9;
+    width:70px;
+    height:33px;
+    float:right;
+    
+}
+input:focus{
+    outline: none;
+}
+.buttons-together{
+    width:32%;
+    background-color: white;
+    border: 0px solid white;
+}
+button{
+    cursor: pointer;
+}
+#b1,#b2,#b3{
+    border-bottom:2px solid white;
+}
+#create:active{
+    background-color: white;
+    color: #0093E9;
+}
+
+.task{
+    margin:15px 5px 15px 5px;
+    padding:4px;
+    width:97%;
+    box-shadow: 0px 0px 2px 2px #32323212;
+}
+.task-date{
+    font-size: 12px;
+    color: rgb(117, 116, 116);
+}
+.task p{
+    padding:0px;
+    padding-left:7px;
+    margin:0px;
+
+}
+.row{
+    display:flex;
+    flex-direction: row;
+}
+input[type="checkbox"] {
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 2px solid #0093E9;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top:20px;
+}
+  input[type="checkbox"]:checked {
+    background-color: #0093E9;
+    border-color: #0093E9;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+  
+
+@media screen and (max-width: 1250px) {
+    .all{
+        width:40%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .all{
+        width:50%;
+    }
+}
+@media screen and (max-width: 870px) {
+    .all{
+        width:60%;
+    }
+}
+@media screen and (max-width: 720px) {
+    .all{
+        width:70%;
+    }
+}
+@media screen and (max-width: 620px) {
+    .all{
+        width:80%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .all{
+        width:90%;
+    }
+}
+@media screen and (max-width: 485px) {
+    .all{
+        width:90%;
+    }
+    input{
+        width:60%;
+    }
+}
